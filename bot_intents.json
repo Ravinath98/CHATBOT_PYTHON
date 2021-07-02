@@ -1,0 +1,421 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey",
+        "hello there",
+        "Hi",
+        "Hello, thanks for visiting",
+        "Hi, what can I do for you?",
+        "Hi, how can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!","Thank you very much"],
+      "responses": ["Happy to help you!", "Any time!!", "It's my pleasure","Welcome!!"]
+    },
+    {
+      "tag": "normal foods",
+      "patterns": [
+        "Biscuits",
+        "Chocolates",
+        "Toffee",
+        "Nuts",
+        "Seeds",
+        "Coffee",
+        "Tea",
+        "Milk powder",
+        "Sugar",
+        "Bread"
+
+      ],
+      "responses": [
+        "Shelf No.1"
+
+      ]
+    },
+    {
+      "tag": "papers",
+      "patterns": [
+        "Toilet",
+        "Tissue",
+        "Baby",
+        "Copy paper",
+        "Cards",
+        "Paper"
+      ],
+      "responses": [
+        "Shelf No.2"
+
+      ]
+    },
+    {
+      "tag": "textile",
+      "patterns": [
+        "Cotton",
+        "Wool",
+        "Leather",
+        "Rugs",
+        "Footwear",
+        "Towels",
+        "Fabrics",
+        "Silk",
+        "Synthetic"
+
+      ],
+      "responses": [
+        "Shelf No.3"
+
+      ]
+    },
+    {
+      "tag": "dairy",
+      "patterns": [
+        "Ice-cream",
+        "Butter",
+        "Cheese",
+        "cream cheese",
+        "sour cream",
+        "yogurt",
+        "half"
+
+      ],
+      "responses": [
+        "Shelf No.4"
+      ]
+    },
+    {
+      "tag": "beverages",
+      "patterns": [
+        "Soda",
+        "Cola",
+        "Water bottles",
+        "Beer",
+        "Soft drinks",
+        "Cool drinks",
+        "wine",
+        "juice",
+        "iced tea",
+        "iced coffee",
+        "sparkling water",
+        "lemonade"
+      ],
+      "responses": [
+        "Shelf No.5"
+
+      ]
+    },
+    {
+      "tag": "fruits",
+      "patterns": [
+        "Banana",
+        "Apple",
+        "Orange",
+        "Avocados",
+        "Cherry",
+        "Berry",
+        "Lemon",
+        "Guava",
+        "Grapes",
+        "Gooseberry",
+        "Fig",
+        "Dragon fruit",
+        "Durian",
+        "Pineapple",
+        "Lime",
+        "Watermelon",
+        "Strawberry",
+        "Passion fruit",
+        "Raspberry",
+        "papaya"
+      ],
+      "responses": [
+        "Shelf No.6"
+
+      ]
+    },
+    {
+      "tag": "vegetables",
+      "patterns": [
+        "Corn",
+        "Fennel",
+        "Delicata",
+        "Jicama",
+        "Ginger",
+        "Garlic",
+        "Leek",
+        "Cucumber",
+        "Eggplant",
+        "Green beans",
+        "Green onion",
+        "Endive",
+        "Carrot",
+        "pumpkin",
+        "pea",
+        "potato",
+        "lettuce",
+        "radish",
+        "beet",
+        "cauliflower",
+        "onion",
+        "cucumber",
+        "bell pepper"
+      ],
+      "responses": [
+        "Shelf No.7"
+
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": [
+        "medicine",
+        "tablets",
+        "herbals"
+      ],
+      "responses": [
+        "Shelf No.8"
+
+      ]
+    },
+    {
+      "tag": "cosmetics",
+      "patterns": [
+        "face cream",
+        "face wash",
+        "hair color",
+        "body wash",
+        "perfumes",
+        "body cream",
+        "powder",
+        "lotion",
+        "tooth paste",
+        "tooth powder",
+        "mouth washes",
+        "hair oil",
+        "shampoos",
+        "lipstic",
+        "makeup",
+        "sun cream"
+      ],
+      "responses": [
+        "Shelf No.9"
+
+      ]
+    },
+    {
+      "tag": "electronic",
+      "patterns": [
+        "computer",
+        "mobiles",
+        "tabs",
+        "headsets",
+        "gaming",
+        "cd",
+        "dvd",
+        "mouse",
+        "keyboards",
+        "display",
+        "back covers",
+        "circuits",
+        "bulbs",
+        "cameras",
+        "cables"
+      ],
+      "responses": [
+        "Shelf No.10"
+
+      ]
+    },
+    {
+      "tag": "plastics",
+      "patterns": [
+        "plastic",
+        "toys",
+        "rubber",
+        "buckets",
+        "cups",
+        "jugs",
+        "plates",
+        "bags",
+        "coves"
+      ],
+      "responses": [
+        "Shelf No.11"
+
+      ]
+    },
+    {
+      "tag": "home",
+      "patterns": [
+        "oil",
+        "diesel",
+        "batteries",
+        "paints",
+        "inks",
+        "brushes",
+        "motor oil",
+        "hand tools",
+        "flatware",
+        "shower",
+        "cleaners",
+        "surface",
+        "gloves",
+        "rubber gloves"
+      ],
+      "responses": [
+        "Shelf No.12"
+
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "cat food",
+        "pet food",
+        "pet treats",
+        "dog food",
+        "birds food",
+        "cat litter",
+        "wee-wee pads"
+      ],
+      "responses": [
+        "Shelf No.13"
+
+      ]
+    },
+    {
+      "tag": "cleaners",
+      "patterns": [
+        "sponge",
+        "wipes",
+        "tub & tile cleaner",
+        "dishwashing soap",
+        "bleach",
+        "Paper",
+        "air freshener",
+        "dryer sheets",
+        "stain remover",
+        "vacuum bags",
+        "laundry detergent",
+        "dishwasher detergent"
+      ],
+      "responses": [
+        "Shelf No.14"
+
+      ]
+    },
+    {
+      "tag": "condiments",
+      "patterns": [
+        "bbq sauce",
+        "ketchup",
+        "lemon juice",
+        "mustard",
+        "jelly",
+        "jam",
+        "soy souce",
+        "syrup",
+        "vinegar",
+        "olive",
+        "mayonnaise"
+      ],
+      "responses": [
+        "Shelf No.15"
+
+      ]
+    },
+    {
+      "tag": "baking",
+      "patterns": [
+        "baking powder",
+        "baking soda",
+        "cake mix",
+        "chocolate chips",
+        "cocoa",
+        "cooking spray",
+        "flour",
+        "honey",
+        "pie crust",
+        "vanilla",
+        "honey",
+        "cornmeal"
+      ],
+      "responses": [
+        "Shelf No.16"
+
+      ]
+    },
+    {
+      "tag": "meat and fish",
+      "patterns": [
+        "bacon",
+        "chicken",
+        "fish",
+        "ham",
+        "beef",
+        "lamb",
+        "pork",
+        "sausage",
+        "scalloops",
+        "shrimp",
+        "steak",
+        "turkey",
+        "lobster"
+      ],
+      "responses": [
+        "Shelf No.17"
+
+      ]
+    },
+    {
+      "tag": "buy",
+      "patterns": [
+        "I want to buy some goods",
+        "I just want these items",
+        "I want these goods",
+        "We want to buy goods",
+        "I am going to buy some goods",
+        "We are going to buy some goods",
+        "buy food",
+        "take some food",
+        "select some food"
+      ],
+      "responses": [
+        "Please tell the list of goods",
+        "Tell the list of the goods"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How can I pay for goods",
+        "Do you accept Mastercard?",
+        "Do you accept Visa cards?",
+        "Are you cash only for paying goods?"
+      ],
+      "responses": [
+        "You can use VISA,Mastercard and Paypal or cash for paying",
+        "We accept most major credit cards, and Paypal other than cash"
+      ]
+    }
+
+  ]
+}
